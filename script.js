@@ -31,11 +31,11 @@ class App {
 
       this.camera = new THREE.PerspectiveCamera( 25, window.innerWidth / window.innerHeight, 0.1, 1000 );
       this.camera.position.x = -45;
-      this.camera.position.y = 20;
+      this.camera.position.y = 30;
       this.camera.position.z = -45;
     
-      this.controls = new THREE.OrbitControls(this.camera);
-      this.controls.target = new THREE.Vector3(5,-5,5);
+      // this.controls = new THREE.OrbitControls(this.camera);
+      this.camera.lookAt(new THREE.Vector3(5,-5,5));
 
       this.scene = new THREE.Scene();
     
@@ -125,8 +125,8 @@ class App {
     let randFrom = this.randFrom[Math.floor(Math.random()*this.randFrom.length)];
     let easingString = this.easing[Math.floor(Math.random()*this.easing.length)];
     
-    // this.randFromText.textContent = randFrom;
-    // this.randEasingText.textContent = easingString;
+    this.randFromText.textContent = randFrom;
+    this.randEasingText.textContent = easingString;
     
     anime({
       targets: this.staggerArray,
