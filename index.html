@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=142">
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="assets/css/style.css?ver=142">
-	<link rel="stylesheet" href="assets/css/theme.css?ver=142">
+	<!-- <link rel="stylesheet" href="assets/css/theme.css?ver=142"> -->
 	<style>
 		/* Playground by EThaiZone */
 
@@ -45,6 +45,7 @@
 		#parent>button {
 			opacity: 1;
 		}
+		
 	</style>
 </head>
 
@@ -56,7 +57,7 @@
 		<div class="navbar navbar-expand-lg is-transparent" id="mainnav">
 			<nav class="container">
 				<a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="./">
-					<img class="logo logo-dark" alt="logo" src="images/logo.png" srcset="images/logo2x.png 2x">
+					<img class="logo logo-dark" alt="logo" src="assets/images/hugomarklogo.png" srcset="assets/images/hugomarklogo.png">
 					<img class="logo logo-light" alt="logo" src="images/logo-white.png"
 						srcset="images/logo-white2x.png 2x">
 				</a>
@@ -69,9 +70,9 @@
 
 				<div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
 					<ul class="navbar-nav animated" data-animate="fadeInDown" data-delay=".9">
-						<li class="nav-item"><a class="nav-link menu-link" href="./index.html">HOME</a></li>
-
-						<li class="nav-item"><a class="nav-link menu-link" href="./about.html">ABOUT<span
+						<li class="nav-item"><a class="nav-link menu-link navitext" href="./index.html" style="color: #E08D18;">HOME</a></li>
+						<li class="nav-item"><a class="nav-link menu-link navitext" href="./hotel-page.html">WORKS</a></li>
+						<li class="nav-item"><a class="nav-link menu-link navitext" href="./about.html">ABOUT<span
 									class="sr-only">(current)</span></a></li>
 						<!-- <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">RECRUIT</a></li>
 						<li class="nav-item"><a class="nav-link menu-link" href="./contact.html">COMTACT</a></li> -->
@@ -84,11 +85,12 @@
 								<a class="dropdown-item menu-link" href="#faq">Faqs</a>
 							</div>
 						</li> -->
-						<li class="nav-item"><a class="nav-link menu-link" href="./contact.html">Contact</a></li>
+						
+						<li class="nav-item"><a class="nav-link menu-link navitext" href="./contact.html">Contact</a></li>
 					</ul>
 					<ul class="navbar-nav navbar-btns animated" data-animate="fadeInDown" data-delay="1.15">
-						<li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">CN</a></li>
-						<li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#apps">JP</a>
+						<li class="nav-item"><a class="nav-link  menu-link" href="#">CN</a></li>
+						<li class="nav-item"><a  style="color: #E08D18;" class="nav-link  menu-link" href="#apps">JP</a>
 						</li>
 					</ul>
 				</div>
@@ -96,21 +98,33 @@
 		</div>
 		<!-- End Navbar -->
 
-		<div id="parent">
-
-
-			<iframe style=" display: block; width:100%; height: 800px;pointer-events: none;" src="./animate.html">
-			</iframe>
+		<div id="parent" style="width: 100%;height: 1000px;background: linear-gradient(to bottom, #E08D18 0%,#ffffff 100%);">
+			<div id="" style="width: 100%;height: 200px;">
+				
+			</div>
+			<div id="dlogo" style="width: 60%;height: 20%;margin-left: 20%;text-align: center;">
+				<img src="assets/images/hugomarklogo.png">
+			</div>
+			<div id="dlogo" style="width: 50%;height: 6.5rem;text-align: center;margin-left: 25%;display: flex;justify-content: space-between;flex-direction: column;align-items: center;">
+				<div id="" style="cursor: pointer;width: 150px;height: 40px;background-color: #000000;color: white;line-height: 40px;text-align: center;">
+					WORKS
+				</div>
+				<div id="" style="cursor: pointer;width: 150px;height: 40px;background-color: #E08D18;color: white;line-height: 40px;margin-top: 20px;text-align: center;">
+					WORKS
+				</div>
+			</div>
+			<!-- <iframe style=" display: block; width:100%; height: 800px;pointer-events: none;" src="./animate.html">
+			</iframe> -->
 			<!-- <button style="opacity: 1;padding-left:-50%;float: center;bottom: 405px;transition: 0.5s;">Back
 				to main page</button>
 				<> -->
-			<img style="opacity: 1;position: relative;left: 30%;;float: center;bottom: 545px;transition: 0.5s;"
+			<!-- <img style="opacity: 1;position: relative;left: 30%;;float: center;bottom: 545px;transition: 0.5s;"
 				src="images/logo-h.png" style="justify-content: center">
 			<ul style="opacity: 1;position: relative;left: 40%;;float: center;bottom: 545px;transition: 0.5s;"
-				class="btns animated" data-animate="fadeInUp" data-delay="1.0">
+				class="btns animated" data-animate="fadeInUp" data-delay="1.0"> -->
 				<!-- <li><a href="#" class="btn">WORKD</a></li>
 				<li><a href="#" class="btn btn-alt">WORKD</a></li> -->
-			</ul>
+			<!-- </ul> -->
 
 		</div>
 

@@ -5,36 +5,79 @@
   <title>CodePen - Card Hover Interactions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="./style-card.css">
-
+<script type="text/javascript">
+	function navigateToHotel(){
+		console.log('ggg');
+		window.open('./hotel-page.html');
+		
+	}
+</script>
 </head>
+
 <body>
 <!-- partial:index.partial.html -->
-<main class="page-content">
+<div class="pagecontent">
+	<div class="bv1">
+		<div class="bv1_c">
+			贸易事業
+		</div>
+	</div>
+	<div class="bv2">
+		<div class="bv2_c">
+			Web<br />
+			ビレスル<br />
+			事業
+		</div>
+	</div>
+	<div class="bv3">
+		<div class="bv3_c">
+			インターネット<br />
+			サービス
+		</div>
+	</div>
+	<div class="bv4">
+		<div class="bv4_c">
+			商品販売<br />
+			システム
+		</div>
+	</div>
+	<div class="bv5">
+		<div class="bv5_c">
+			IT事業
+		</div>
+	</div>
+	<div class="bv6" onclick="navigateToHotel()">
+		<div class="bv6_c">
+			 不動産 <br />    
+			運用事業	
+		</div>
+	</div>
+</div>
+<!-- <main class="page-content">
   
   <div class="card">
-    <div class="content">
-      <h2 class="title">貿易事業</h2>
+	<div class="content">
+	<h2 class="title">貿易事業</h2>
       <p class="copy">貿易事業</p>
       <button class="btn">View</button>
     </div>
   </div>
   <div class="card">
-    <div class="content">
+   <div class="content">
       <h2 class="title">Webコンテンツ事業</h2>
       <p class="copy">Webコンテンツ事業</p>
       <button class="btn">View</button>
     </div>
   </div>
   <div class="card">
-    <div class="content">
+   <div class="content">
       <h2 class="title">インターネットサービス</h2>
       <p class="copy">インターネットサービス</p>
       <button class="btn">View</button>
     </div>
   </div>
-  
-</main>
-<main class="page-content" style="margin-top: -160px;">
+</main> -->
+<!-- <main class="page-content" style="margin-top: -160px;">
   <div class="card" style="height: 0px;width: 0px;display: none;"></div>
   <div class="card" style="height: 0px;width: 0px;display: none"></div>
   <div class="card" style="height: 0px;width: 0px;display: none"></div>
@@ -58,11 +101,10 @@
     <div class="content">
       <h2 class="title">不動産運用事業</h2>
       <p class="copy">不動産運用事業</p>
-      <!-- <button  onclick='window.location.href="./hotle-page.html"'  class="btn">View</button> -->
       <a target="_top" class="btn" href="./hotel-page.html">View</a>
     </div>
   </div>
-</main>
+</main> -->
 <!-- partial -->
   
 </body>

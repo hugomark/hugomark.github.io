@@ -26,7 +26,274 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   font-family: var(--font-sans);
-  
+}
+.pagecontent {
+  display: grid;
+  width: 100%;
+  height: 50rem;
+  grid-template-columns: 20.625rem 20.625rem 20.625rem; 
+  grid-template-rows: 20.625rem 20.625rem 20.625rem;
+  /* grid-gap: 1rem; */
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+  /* background-color: #0043B9; */
+}
+.bv1{
+	background-color: #E08D18;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	/* border:1px solid #E08D18; */
+	border-top:1px solid #E08D18;
+	border-left:1px solid #E08D18;
+}
+.bv2{
+	background-color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	border-top:1px solid #E08D18;
+}
+
+.bv2_c{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background:url(images/home/资源%2024@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+.bv4_c{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background:url(images/home/资源%2025@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+.bv6_c{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background:url(images/home/资源%2023@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+.bv1_c{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bv3_c{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bv5_c{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.bv2:hover .bv2_c{
+	background:url() no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: white;
+	background-color: #E08D18;
+}
+.bv2:hover .bv4_c{
+	background:url() no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: white;
+	background-color: #E08D18;
+}
+.bv4:hover .bv4_c{
+	background:url() no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: white;
+	background-color: #E08D18;
+}
+
+.bv2:hover .bv6_c{
+	background:url() no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: white;
+	background-color: #E08D18;
+}
+.bv6:hover .bv6_c{
+	background:url() no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: white;
+	background-color: #E08D18;
+}
+.bv1:hover .bv1_c{
+	background:url(images/home/资源%2021@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+
+.bv3:hover .bv3_c{
+	background:url(images/home/资源%2020@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+
+/* .bv1:hover .bv5_c{
+	background:url(images/home/资源%2022@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+} */
+.bv5:hover .bv5_c{
+	background:url(images/home/资源%2022@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+.bv1:hover{
+	background-color: #ffffff;
+}
+
+.bv2:hover{
+	background-image: url();
+	background-color: #E08D18;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	
+}
+.bv3{
+	background-color: #E08D18;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	/* border:1px solid #E08D18; */
+	border-top:1px solid #E08D18;
+	border-right:1px solid #E08D18;
+}
+.bv3:hover {
+	/* background:url(images/home/资源%2020@1.5x.png) no-repeat; */
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0);
+	background-color: #ffffff;
+}
+
+.bv4{
+	/* background: url(images/home/资源%2025@1.5x.png) no-repeat; */
+	/* -moz-background-size:100% 100%;*/
+	background-color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	border-left:1px solid #E08D18;
+	border-bottom:1px solid #E08D18;
+}
+.bv4:hover{
+	
+	background-image: url();
+	background-color: #E08D18;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;		
+}
+.bv5{
+	background-color: #E08D18;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	/* border:1px solid #E08D18; */
+	/* border-top:1px solid #E08D18; */
+	border-bottom:1px solid #E08D18;
+}
+.bv5:hover {
+	/* background:url(images/home/资源%2022@1.5x.png) no-repeat;
+	background-size:contain;
+	background-position:center;
+	color: rgba(0,0,0,0); */
+	background-color: #ffffff;
+}
+.bv6{
+	background-color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	border-right:1px solid #E08D18;
+	border-bottom:1px solid #E08D18;
+	
+}
+.bv6:hover{
+	
+}
+.bv6:hover{
+	background-image: url();
+	background-color: #E08D18;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.125rem;
+	color: white;
+	/* background-color: #ffffff; */
 }
 @media (min-width: 600px) {
   .page-content {
@@ -40,8 +307,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-.card {
+.card{
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -51,7 +317,155 @@ body {
   text-align: center;
   color: whitesmoke;
   background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.card1 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.card2 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.card3 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.card4 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.card5 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.card6 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  -moz-background-size:100% 100%; 
+  background-size:100% 100%;
+  background-repead: no-repead;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+	padding: 1rem;
+	width: 100%;
+	text-align: center;
+	color: whitesmoke;
+	background-color: whitesmoke; */
+	background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
+	-moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	background-repead: no-repead;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card2:hover{
+	background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
+	-moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	background-repead: no-repead;
+}
+.card3:hover{
+	background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
+	-moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	background-repead: no-repead;
+}
+.card4:hover{
+	background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
+	-moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	background-repead: no-repead;
+}
+.card5:hover{
+	background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
+	-moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	background-repead: no-repead;
+}
+.card6:hover{
+	background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
+	-moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	background-repead: no-repead;
 }
 @media (min-width: 600px) {
   .card {
@@ -60,7 +474,8 @@ body {
   }
 }
 .card:before {
-  content: "";
+	/* background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+  /* content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -69,10 +484,11 @@ body {
   background-size: cover;
   background-position: 0 0;
   transition: transform calc(var(--d) * 1.5) var(--e);
-  pointer-events: none;
+  pointer-events: none; */
 }
 .card:after {
-  padding-top: -200px;
+	/* background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg); */
+ /* padding-top: -200px;
   content: "";
   display: block;
   position: absolute;
@@ -83,11 +499,17 @@ body {
   pointer-events: none;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
   transform: translateY(-50%);
-  transition: transform calc(var(--d) * 2) var(--e);
+  transition: transform calc(var(--d) * 2) var(--e); */
 }
 .card:nth-child(1):before {
   background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
 }
+.card:nth-child(1):before {
+  background-image: url(https://hugomark.jp/images/home/cargo-449784_1280.jpg);
+}
+/* .card:nth-child(1):after {
+ background-color: #000000;
+} */
 .card:nth-child(2):before {
   background-image: url(https://hugomark.jp/images/home/digital-marketing-1725340_1280.jpg);
 }
