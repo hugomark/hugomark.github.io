@@ -22,53 +22,54 @@
 <body class="theme-light" data-spy="scroll" data-target="#mainnav" data-offset="80">
 
     <!-- Header -->
-    <header class="site-header is-sticky">
+    <header class="site-header has-fixed">
         <!-- Navbar -->
         <div class="navbar navbar-expand-lg is-transparent" id="mainnav">
-            <nav class="container">
-                <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="./">
-                    <img class="logo logo-dark" alt="logo" src="images/logo.png" srcset="images/logo2x.png 2x">
-                    <img class="logo logo-light" alt="logo" src="images/logo-white.png"
-                        srcset="images/logo-white2x.png 2x">
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
-                    <span class="navbar-toggler-icon">
-                        <span class="ti ti-align-justify"></span>
-                    </span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
-                    <ul class="navbar-nav animated" data-animate="fadeInDown" data-delay=".9">
-                        <li class="nav-item"><a class="nav-link menu-link" href="./index.html">HOME</a></li>
-
-                        <li class="nav-item"><a class="nav-link menu-link" href="./about.html">ABOUT<span
-                                    class="sr-only">(current)</span></a></li>
-                        <!-- <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">RECRUIT</a></li>
-                        <li class="nav-item"><a class="nav-link menu-link" href="./contact.html">COMTACT</a></li> -->
-                        <!-- <li class="nav-item"><a class="nav-link menu-link" href="#partners">Partners</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">MORE</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item menu-link" href="#media-partner">Media Partners</a>
-								<a class="dropdown-item menu-link" href="#blogs">Blogs</a>
-								<a class="dropdown-item menu-link" href="#faq">Faqs</a>
-							</div>
-						</li> -->
-                        <li class="nav-item"><a class="nav-link menu-link" href="./contact.html">Contact</a></li>
-                    </ul>
-                    <ul class="navbar-nav navbar-btns animated" data-animate="fadeInDown" data-delay="1.15">
-                        <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">CN</a></li>
-                        <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#apps">JP</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        	<nav class="container" style="width: 92%;margin-left: 4%;">
+        		<a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="./">
+        			<img class="logo logo-dark" alt="logo" src="assets/images/hugomarklogo.png" srcset="assets/images/hugomarklogo.png">
+        			<img class="logo logo-light" alt="logo" src="images/logo-white.png"
+        				srcset="images/logo-white2x.png 2x">
+        		</a>
+        
+        		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+        			<span class="navbar-toggler-icon">
+        				<span class="ti ti-align-justify"></span>
+        			</span>
+        		</button>
+        
+        		<div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+        			<ul class="navbar-nav animated" data-animate="fadeInDown" data-delay=".9">
+        				<li class="nav-item"><a class="nav-link menu-link navitext" href="./index.html" >HOME</a></li>
+        				<li class="nav-item"><a class="nav-link menu-link navitext" href="./hotel-page.html">WORKS</a></li>
+        				<li class="nav-item"><a class="nav-link menu-link navitext" href="./about.html" style="color: #E08D18;">ABOUT<span
+        							class="sr-only">(current)</span></a></li>
+        				<!-- <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">RECRUIT</a></li>
+        				<li class="nav-item"><a class="nav-link menu-link" href="./contact.html">COMTACT</a></li> -->
+        				<!-- <li class="nav-item"><a class="nav-link menu-link" href="#partners">Partners</a></li>
+        				<li class="nav-item dropdown">
+        					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">MORE</a>
+        					<div class="dropdown-menu">
+        						<a class="dropdown-item menu-link" href="#media-partner">Media Partners</a>
+        						<a class="dropdown-item menu-link" href="#blogs">Blogs</a>
+        						<a class="dropdown-item menu-link" href="#faq">Faqs</a>
+        					</div>
+        				</li> -->
+        				
+        				<li class="nav-item"><a class="nav-link menu-link navitext" href="./contact.html">Contact</a></li>
+        			</ul>
+        			<ul class="navbar-nav navbar-btns animated" data-animate="fadeInDown" data-delay="1.15">
+        				<li class="nav-item"><a class="nav-link  menu-link" href="#">CN</a></li>
+        				<li class="nav-item"><a  style="color: #E08D18;" class="nav-link  menu-link" href="#apps">JP</a>
+        				</li>
+        			</ul>
+        		</div>
+        	</nav>
         </div>
         <!-- End Navbar -->
 
         <!-- Banner -->
-        <div id="header" class="page-banner d-flex align-items-center">
+       <!-- <div id="header" class="page-banner d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -79,8 +80,14 @@
                     </div>
 
                 </div>
-            </div><!-- .container  -->
+            </div> --><!-- .container  -->
         </div>
+		<div id="" style="background-image: linear-gradient(to right, #E08D18 , #ffffff);height: 200px;display: flex;flex-direction: column;justify-content:flex-end">
+			<div id="" style="width: 90%;margin-left: 5%; color: white;font-size: 3.125rem;padding-bottom: 18px;font-weight:bold;" >
+				ABOUT
+			</div>
+			
+		</div>
         <!-- End Banner -->
     </header>
     <!-- End Header -->
@@ -91,15 +98,15 @@
             <div class="row " style="text-align: left">
                 <div class="col col-lg-6">
                     <div class="section-head">
-                        <h3 class="animated" data-animate="fadeInUp" data-delay="1.55">ITで楽しい世界へ導く</h3>
+                        <h3 class="animated" data-animate="fadeInUp" data-delay="1.55">社长の挨拶</h3>
 
 
 
 
 
 
-                        <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay="1.65"
-                            style="visibility: visible; animation-delay: 1.65s;">社长の挨拶</p>
+                       <!-- <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay="1.65"
+                            style="visibility: visible; animation-delay: 1.65s;">社长の挨拶</p> -->
                         <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay="1.65"
                             style="visibility: visible; animation-delay: 1.65s;">HUGO MARKは若者たちから立ち上がった新し会社です。</p>
                         <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay="1.65"
@@ -135,11 +142,11 @@
                         </p>
                         <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay="1.65"
                             style="visibility: visible; animation-delay: 1.65s;">
-                            本社所在地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〒104-0054  
+                            本社所在地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〒150-0046  
                             <br>
                             &nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   東京都渋谷区松濤一丁目６番２０号
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   東京都渋谷区松濤一丁目6番20号
 
                         </p>
                     </div>
@@ -161,7 +168,7 @@
 
 
     <!-- Start Section -->
-    <div class="section subscribe-section section-pad-md section-bg">
+   <!-- <div class="section subscribe-section section-pad-md section-bg">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-6 offset-md-3">
@@ -169,15 +176,15 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Section -->
 
 
     <!-- Start Section -->
-    <div class="section footer-scetion no-pt section-pad-sm section-bg">
+    <div class="section footer-scetion no-pt section-pad-sm section-bg" style="background-color: black;">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-md-12" style="margin-top: 60px;">
                     <ul class="social">
                         <!-- <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
 						<li><a href="#"><em class="fab fa-twitter"></em></a></li>
@@ -185,26 +192,27 @@
 						<li><a href="#"><em class="fab fa-github"></em></a></li>
 						<li><a href="#"><em class="fab fa-bitcoin"></em></a></li>
 						<li><a href="#"><em class="fab fa-medium-m"></em></a></li> -->
-                        <span><b>&nbsp;&nbsp;</b><a href="tel:03-5579-9730"><em
+                        <span><b>&nbsp;&nbsp;</b><a href="tel:03-5579-9730" style="color: #E08D18;font-size: 17px;"><em
                                     class="fa fa-phone"></em>&nbsp;&nbsp;03-5579-9730
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
-                        <span><b>&nbsp;&nbsp;</b><a href="mailto:info@hugomark.jp"><em
+                        <span><b>&nbsp;&nbsp;</b><a href="mailto:info@hugomark.jp" style="color: #E08D18;font-size: 17px;"><em
                                     class="fa fa-envelope"></em>&nbsp;&nbsp;info@hugomark.jp
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
 
 
                     </ul>
-                    <span class="copyright-text">
-
+                    <!-- <span class="copyright-text">
                         <span>© 2019 Hugo Mark株式会社. All Rights Reserved.</span>
-                    </span>
+                    </span> -->
                 </div>
             </div>
         </div>
     </div>
     <!-- End Section -->
 
-
+	<div id="" style="width: 100%;height: 50px;background-color: #393939;text-align: center;color: #ffffff;line-height: 50px;">
+		© 2019 Hugo Mark株式会社. All Rights Reserved.
+	</div>
     <!-- Preloader !remove please if you do not want -->
     <div id="preloader">
         <div id="loader"></div>
